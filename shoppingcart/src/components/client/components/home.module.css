@@ -1,0 +1,127 @@
+.container {
+    background-color: #f6f5f7;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+  }
+  
+.wrapper {
+    display: flex;
+}
+  
+.button_container {
+    flex: 1;
+    padding: 1rem;
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+  
+.search_container {
+    padding: 1rem;
+    flex: 1;
+    margin-top: 10px;
+    margin-left: 50px; /* Adjust the margin as needed */
+    padding-left: 400px;
+}
+
+.combheader {
+    display: flex;
+}
+
+.sellersliderContainer {
+    margin: 10px;
+    margin-top: 10px;
+    flex: 1;
+    width: 990px; /* Set the desired width */
+    height: 430px; /* Set the desired height */
+}
+  
+.sellersliderContainer img {
+    width: 100%; /* Ensure images fill the container horizontally */
+    height: 430px; /* Ensure images fill the container vertically */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+  
+.sellerContainer img {
+    /* padding: 1rem; */
+    flex: 1;
+    margin: 10px;
+    /* margin-top: 10px; */
+    margin-bottom: 0px;
+    margin-left: 0px;
+    width: 500px; /* Ensure images fill the container horizontally */
+    height: 430px; /* Ensure images fill the container vertically */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    /* margin-top: 10px;
+    margin-left: 50px; /* Adjust the margin as needed */
+    /* padding-left: 400px; */ 
+}
+
+  
+.sliderContainer {
+    margin: 10px;
+    margin-top: 10px;
+    flex: 1;
+    width: 990px; /* Set the desired width */
+    height: 310px; /* Set the desired height */
+}
+  
+.sliderContainer img {
+    width: 100%; /* Ensure images fill the container horizontally */
+    height: 310px; /* Ensure images fill the container vertically */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+  
+.saleContainer img {
+    /* padding: 1rem; */
+    flex: 1;
+    margin: 10px;
+    /* margin-top: 10px; */
+    margin-bottom: 0px;
+    margin-left: 0px;
+    width: 500px; /* Ensure images fill the container horizontally */
+    height: 150px; /* Ensure images fill the container vertically */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    /* margin-top: 10px;
+    margin-left: 50px; /* Adjust the margin as needed */
+    /* padding-left: 400px; */ 
+}
+
+.saleContainer {
+    /* padding: 1rem; */
+    flex: 1;
+    /* margin: 10px;
+    margin-top: 10px; */
+    margin-left: 0px;
+    /* width: 500px; */
+    /* height: 400px; */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    /* margin-top: 10px;
+    margin-left: 50px; /* Adjust the margin as needed */
+    /* padding-left: 400px; */ 
+}
+  
+.title_container{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.add__button{
+    position: absolute!important;
+    z-index: 1!important;
+    top: 9%!important;
+    background-color: rgb(255, 255, 255)!important;
+    right: 2%!important;
+}
+.grid{
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+@media only screen and (max-width: 600px) {
+    .grid{
+        padding-left: 1rem!important;
+        padding-right: 1rem!important;
+    }
+}

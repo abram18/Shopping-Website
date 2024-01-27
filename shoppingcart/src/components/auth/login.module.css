@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #d24f34;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.card {
+    padding: 1.2rem 3rem 1.2rem 3rem;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 10px;
+}
